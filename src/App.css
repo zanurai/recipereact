@@ -1,8 +1,70 @@
-.App {
-  text-align: center;
+.recipes img {
+  width: 400px;
+  padding: 10px;
+
 }
 
-.App-logo {
+.recipes a {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 50px;
+  margin-left: 87%;
+
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+
+}
+
+.recipes h5 {
+  margin-left: 10px;
+}
+
+.recipes p {
+  margin-left: 10px;
+
+}
+
+.recipes {
+  border: 1px solid rgb(97, 96, 96);
+  width: 400px;
+  background-color: rgb(97, 96, 96);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: aqua;
+  margin-left: 10px;
+  position: relative;
+  bottom: 3px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.input-bar {
+  margin-left: 30%;
+  width: 300px;
+  height: 40px;
+  margin-top: 5%;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
+
+
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -32,7 +94,8 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
-}
+}*/
